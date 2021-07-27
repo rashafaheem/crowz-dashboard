@@ -1,12 +1,9 @@
 import { makeStyles } from "@material-ui/core/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import { palette } from "@material-ui/system";
 import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { blueGrey } from "@material-ui/core/colors";
-import { colors } from "@material-ui/core";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 const drawerWidth = 240;
@@ -41,13 +38,13 @@ function Sidebar() {
         >
           <div className={classes.toolbar} />
           <div>
+            <br />
             <img
               className="logo"
               src="https://assets.powertofly.com/medium/c0fd8bd600fb43e18ddde73abd86c071.jpeg"
             ></img>
             <h3 className="crowz">Crowz</h3>
           </div>
-          <br />
           <br />
           <div className="profile">
             <img
@@ -57,19 +54,29 @@ function Sidebar() {
             <h2 className="robertName">Robert Grant</h2>
             <p className="designation">Marketing Director</p>
           </div>
-          <List>
-            {["Dashboard", "Insights", "Reports", "Comments", "Channels"].map(
-              (text) => (
-                <ListItem className="button" button key={text}>
-                  <ListItemText primary={text} />
-                </ListItem>
-              )
-            )}
-          </List>
+          <br />
+          <br />
+          <div className="menues">
+            <a className="menu">Dashboard</a>
+            <br />
+            <br />
+            <a className="menu">Insights</a>
+            <br />
+            <br />
+            <a className="menu">Reports</a>
+            <br />
+            <br />
+            <a className="menu">Comments</a>
+            <br />
+            <br />
+            <a className="menu">Channels</a>
+          </div>
+          <br />
+          <br />
           <br />
           <div>
             <ExitToAppIcon className="logoutIcon" />
-            <p className="logoutText">Logout</p>
+            <a className="logoutButton">Logout</a>
           </div>
         </Drawer>
       </div>

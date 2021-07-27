@@ -1,19 +1,16 @@
-.drawer {
-  text-align: center;
-  background-color: darkgrey;
-}
-
 .logo {
   margin-left: 60px;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   padding: 5px;
+  border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
 }
 
 .crowz {
   display: inline-block;
+  vertical-align: middle;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -42,13 +39,35 @@
   text-align: center;
 }
 
+.menues {
+  text-align: center;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
+
+.menu:hover {
+  font-weight: 900;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
 .logoutIcon {
-  margin-left: 50px;
+  margin-left: 75px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.logoutText {
+.logoutButton {
+  color: black;
   display: inline-block;
   vertical-align: middle;
+}
+
+.logoutButton:hover {
+  font-weight: 900;
+  cursor: pointer;
 }
