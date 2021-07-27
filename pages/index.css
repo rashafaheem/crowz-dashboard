@@ -1,9 +1,11 @@
 .dashboard {
   font-family: "Georgia", Times, serif;
   margin-left: 23%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.reachList {
+.settings {
   display: inline-block;
   vertical-align: middle;
 }

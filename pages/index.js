@@ -1,6 +1,6 @@
 import Sidebar from "../components/sidebar/sidebar.js";
 import Reach from "../components/reach/reach.js";
-import Divider from "@material-ui/core/Divider";
+import SettingsIcon from "@material-ui/icons/Settings";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Sidebar />
       <div className="dashboard">
         <h1>Dashboard</h1>
+        {/* <SettingsIcon className="settings" /> */}
       </div>
       <div className="">
         <Reach />
