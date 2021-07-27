@@ -1,0 +1,54 @@
+.drawer {
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.logo {
+  margin-left: 60px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.crowz {
+  display: inline-block;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.profile {
+  text-align: center;
+  /* background-color: darkgrey; */
+}
+
+.robertPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.robertName {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 0.8;
+}
+
+.designation {
+  line-height: 0.9;
+  color: rgb(144, 144, 151);
+}
+
+.text {
+  text-align: center;
+}
+
+.logoutIcon {
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logoutText {
+  display: inline-block;
+  vertical-align: middle;
+}
