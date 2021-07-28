@@ -1,6 +1,7 @@
 .info {
-  margin-left: 23%;
   line-height: 0.1;
+  width: 9.5%;
+  margin-inline-end: 10%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -16,18 +17,18 @@ h2 {
 
 .arrow1 {
   color: rgb(5, 146, 156);
-  margin-left: 11%;
+  margin-left: 37%;
   vertical-align: middle;
 }
 
 .arrow2 {
   color: rgb(156, 35, 5);
-  margin-left: 9px;
+  margin-left: 12%;
   vertical-align: middle;
 }
 
 .arrow3 {
   color: rgb(5, 146, 156);
-  margin-left: 9px;
+  margin-left: 23%;
   vertical-align: middle;
 }

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../components/sidebar/sidebar.css";
 import "../components/reach/reach.css";
+import "../components/upgradeCard/upgradeCard.css";
 import "./index.css";
 
 function MyApp({ Component, pageProps }) {

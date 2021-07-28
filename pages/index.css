@@ -1,11 +1,30 @@
-.dashboard {
+.home {
+  margin-left: 20%;
+}
+
+h1 {
   font-family: "Georgia", Times, serif;
-  margin-left: 23%;
+
   display: inline-block;
   vertical-align: middle;
 }
 
-.settings {
+.setNot {
+  margin-left: 28%;
   display: inline-block;
+}
+
+.notification {
+  color: rgb(207, 52, 52);
   vertical-align: middle;
+}
+
+.settings {
+  vertical-align: middle;
+}
+
+.upCard {
+  margin-left: 58%;
+  /* display: inline-block;
+  vertical-align: middle; */
 }

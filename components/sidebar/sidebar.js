@@ -15,11 +15,11 @@ const useStyles = makeStyles((theme) => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
-    background: blueGrey,
+    // background: blueGrey,
   },
   drawerPaper: {
     width: drawerWidth,
-    background: blueGrey,
+    // background: blueGrey,
   },
 }));
 
@@ -29,7 +29,8 @@ function Sidebar() {
     <div className={classes.root}>
       <div className="sidear">
         <Drawer
-          className={classes.drawer}
+          // style={{ backgroundColor: "rgb(233, 220, 220)" }}
+          className="drawer"
           variant="permanent"
           classes={{
             paper: classes.drawerPaper,
