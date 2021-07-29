@@ -1,19 +1,31 @@
-// import card from "./card.jpeg";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
 
 function UpgradeCard() {
   return (
     <div className="upCard">
-      {/* <img src={card} alt="" /> */}
       <Card style={{ backgroundColor: "rgb(233, 220, 220)" }} className="card">
-        <CardContent className="cardContent"></CardContent>
-        <CardActions className="cardContent">
-          {/* <Button size="small">Learn More</Button> */}
+        <CardContent className="cardContent">
+          <p className="upgrade">
+            Upgrade
+            <span className="yourCrowd">
+              {" "}
+              Your <br /> Crowd
+            </span>
+          </p>
+          <p className="sub">Pro plan for better results</p>
+        </CardContent>
+        <CardActions className="now">
+          <Button
+            className="button"
+            size="large"
+            variant="contained"
+            color="secondary"
+          >
+            Now
+          </Button>
         </CardActions>
       </Card>
     </div>

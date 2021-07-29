@@ -1,16 +1,16 @@
 .home {
-  margin-left: 20%;
+  margin-left: 21.5%;
+  margin-top: 1%;
 }
 
 h1 {
   font-family: "Georgia", Times, serif;
-
   display: inline-block;
   vertical-align: middle;
 }
 
 .setNot {
-  margin-left: 28%;
+  margin-left: 33%;
   display: inline-block;
 }
 
@@ -24,7 +24,8 @@ h1 {
 }
 
 .upCard {
-  margin-left: 58%;
-  /* display: inline-block;
-  vertical-align: middle; */
+  margin-left: 61%;
+  margin-top: -14%;
+  display: flex;
+  flex-direction: row;
 }

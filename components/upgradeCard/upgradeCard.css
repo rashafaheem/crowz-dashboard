@@ -2,3 +2,23 @@
   height: 180px;
   width: 370px;
 }
+
+p.upgrade {
+  font-family: "Georgia", Times, serif;
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(212, 81, 33);
+}
+span.yourCrowd {
+  color: black;
+}
+
+.now {
+  display: flex;
+  margin-top: -25%;
+  margin-inline-start: 67%;
+}
+
+.button {
+  /* border-radius: 50%; */
+}

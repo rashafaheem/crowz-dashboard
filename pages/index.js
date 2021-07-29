@@ -1,5 +1,4 @@
 import Sidebar from "../components/sidebar/sidebar.js";
-
 import Reach from "../components/reach/reach.js";
 import UpgradeCard from "../components/upgradeCard/upgradeCard.js";
 import SettingsIcon from "@material-ui/icons/Settings";
@@ -19,9 +18,7 @@ export default function Home() {
           <br />
           <br />
           <Reach />
-          {/* <div className="upCard"> */}
           <UpgradeCard className="upCard" />
-          {/* </div> */}
         </div>
       </div>
     </div>
