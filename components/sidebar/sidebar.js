@@ -1,9 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import { blueGrey } from "@material-ui/core/colors";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 const drawerWidth = 240;
@@ -15,11 +11,10 @@ const useStyles = makeStyles((theme) => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
-    // background: blueGrey,
   },
   drawerPaper: {
     width: drawerWidth,
-    // background: blueGrey,
+    backgroundColor: "rgb(233, 220, 220)",
   },
 }));
 
@@ -29,7 +24,6 @@ function Sidebar() {
     <div className={classes.root}>
       <div className="sidear">
         <Drawer
-          // style={{ backgroundColor: "rgb(233, 220, 220)" }}
           className="drawer"
           variant="permanent"
           classes={{
