@@ -1,0 +1,9 @@
+.h2 {
+  font-family: "Georgia", Times, serif;
+  display: inline;
+  vertical-align: middle;
+}
+
+.p {
+  padding-left: 11%;
+}
