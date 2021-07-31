@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <br />
         <Activity />
-        {/* <ActChart /> */}
+        <ActChart />
       </div>
     </div>
   );

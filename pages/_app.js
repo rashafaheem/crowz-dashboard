@@ -3,6 +3,7 @@ import "../components/sidebar/sidebar.css";
 import "../components/reach/reach.css";
 import "../components/upgradeCard/upgradeCard.css";
 import "../components/activity/activity.css";
+import "../components/chart/chart.css";
 import "./index.css";
 
 function MyApp({ Component, pageProps }) {
