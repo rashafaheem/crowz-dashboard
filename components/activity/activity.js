@@ -23,7 +23,7 @@ function Activity() {
       <TextField
         id="date"
         type="date"
-        defaultValue=""
+        defaultValue="2021-02-08"
         className={classes.textField}
         InputLabelProps={{
           shrink: true,

@@ -3,6 +3,7 @@ import Reach from "../components/reach/reach.js";
 import UpgradeCard from "../components/upgradeCard/upgradeCard.js";
 import Activity from "../components/activity/activity.js";
 import ActChart from "../components/chart/chart.js";
+import Performers from "../components/performers/performers.js";
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 
@@ -23,8 +24,11 @@ export default function Home() {
           <UpgradeCard className="upCard" />
         </div>
         <br />
+        <br />
         <Activity />
         <ActChart />
+        <br />
+        <Performers />
       </div>
     </div>
   );

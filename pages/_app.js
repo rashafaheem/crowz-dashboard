@@ -4,6 +4,7 @@ import "../components/reach/reach.css";
 import "../components/upgradeCard/upgradeCard.css";
 import "../components/activity/activity.css";
 import "../components/chart/chart.css";
+import "../components/performers/performers.css";
 import "./index.css";
 
 function MyApp({ Component, pageProps }) {
