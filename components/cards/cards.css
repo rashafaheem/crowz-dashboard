@@ -1,0 +1,27 @@
+.bigCard {
+  height: 200px;
+  width: 1000px;
+  border-radius: 50%;
+}
+
+.channels {
+  padding: 10px;
+  font-family: "Georgia", Times, serif;
+}
+
+.cardContent {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-left: 15px;
+}
+
+.sub {
+  padding: 10px;
+  color: rgb(66, 66, 66);
+  margin-top: -27px;
+}
+
+.week {
+  color: black;
+  font-weight: bold;
+}

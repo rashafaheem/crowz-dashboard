@@ -4,6 +4,7 @@ import UpgradeCard from "../components/upgradeCard/upgradeCard.js";
 import Activity from "../components/activity/activity.js";
 import ActChart from "../components/chart/chart.js";
 import Performers from "../components/performers/performers.js";
+import Cards from "../components/cards/cards.js";
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 
@@ -29,6 +30,14 @@ export default function Home() {
         <ActChart />
         <br />
         <Performers />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Cards />
+        <br />
+        <br />
       </div>
     </div>
   );
