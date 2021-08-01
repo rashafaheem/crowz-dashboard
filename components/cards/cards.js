@@ -1,5 +1,4 @@
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 
 function Cards() {
@@ -20,8 +19,29 @@ function Cards() {
             period.
           </p>
         </CardContent>
-        <CardActions className="now"></CardActions>
+        {/* <CardActions className="now"></CardActions> */}
       </Card>
+
+      <div className="smallCards">
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Dribble</h4>
+            <br />
+            <p className="dtag">@grantart</p>
+            <br />
+            <h2 className="dpercent">+2%</h2>
+          </CardContent>
+        </Card>
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Dribble</h4>
+            <br />
+            <p className="dtag">@grantart</p>
+            <br />
+            <h2 className="dpercent">+2%</h2>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 }

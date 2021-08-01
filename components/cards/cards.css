@@ -1,27 +1,49 @@
 .bigCard {
-  height: 200px;
+  height: 240px;
   width: 1000px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .channels {
   padding: 10px;
+  margin-top: 5%;
   font-family: "Georgia", Times, serif;
 }
 
 .cardContent {
-  /* display: flex; */
-  /* flex-direction: row; */
   margin-left: 15px;
 }
 
 .sub {
   padding: 10px;
-  color: rgb(66, 66, 66);
+  color: rgb(126, 95, 95);
   margin-top: -27px;
 }
 
 .week {
   color: black;
   font-weight: bold;
+}
+
+.dribbleCard {
+  height: 150px;
+  width: 135px;
+  margin-top: -68%;
+  margin-inline-end: 13%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.smallCards {
+  position: relative;
+  left: 230px;
+}
+
+.dContent {
+  text-align: center;
+  line-height: 0px;
+}
+
+.dtag {
+  margin-top: 2%;
 }
