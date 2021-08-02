@@ -7,6 +7,7 @@ import Performers from "../components/performers/performers.js";
 import Cards from "../components/cards/cards.js";
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import { Button } from "@material-ui/core";
 
 export default function Home() {
   return (
@@ -16,8 +17,12 @@ export default function Home() {
         <div className="dashboard">
           <h1>Dashboard</h1>
           <div className="setNot">
-            <NotificationsIcon className="notification" />
-            <SettingsIcon className="settings" />
+            <Button className="setNotBut">
+              <NotificationsIcon className="notification" />
+            </Button>
+            <Button className="setNotBut">
+              <SettingsIcon className="settings" />
+            </Button>
           </div>
           <br />
           <br />

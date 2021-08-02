@@ -36,7 +36,7 @@ function Sidebar() {
             <br />
             <img
               className="logo"
-              src="https://assets.powertofly.com/medium/c0fd8bd600fb43e18ddde73abd86c071.jpeg"
+              src="https://cdn.dribbble.com/users/5279042/screenshots/14911868/letter-d-logo-_-arrow-logo-_4x.jpg"
             ></img>
             <h3 className="crowz">Crowz</h3>
           </div>
