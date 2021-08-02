@@ -14,11 +14,8 @@ function Cards() {
             <h3 className="channels">Channels</h3>
             <p className="sub">
               Your channels <br /> statistics for
-              <span className="week">
-                {" "}
-                1 week <br />
-              </span>
-              period.
+              <span className="week">{" 1 week "}</span>
+              <br /> period.
             </p>
           </CardContent>
         </Card>
@@ -60,15 +57,17 @@ function Cards() {
             <h2 className="dpercent">+2%</h2>
           </CardContent>
         </Card>
-        <Card className="dribbleCard">
-          <CardContent className="stats">
-            <h3 className="h3stats">
-              Full <br />
-              Stats
-            </h3>
-            <PlayCircleFilledIcon className="statsIcon" />
-          </CardContent>
-        </Card>
+        <a className="link">
+          <Card className="dribbleCard">
+            <CardContent className="stats">
+              <h3 className="h3stats">
+                Full <br />
+                Stats
+              </h3>
+              <PlayCircleFilledIcon className="statsIcon" />
+            </CardContent>
+          </Card>
+        </a>
       </div>
       <div className="logos">
         <img

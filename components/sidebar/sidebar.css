@@ -35,6 +35,7 @@
 }
 
 .designation {
+  margin-top: -15px;
   line-height: 0.1px;
   color: rgb(144, 144, 151);
 }
