@@ -70,6 +70,24 @@ function Cards() {
           </CardContent>
         </Card>
       </div>
+      <div className="logos">
+        <img
+          className="dlogo"
+          src="https://iconape.com/wp-content/files/yd/55144/svg/dribbble-5.svg"
+        />
+        <img
+          className="blogo"
+          src="https://www.freeiconspng.com/thumbs/behance-icon/behance-minimalist-icon-21.png"
+        />
+        <img
+          className="ilogo"
+          src="https://www.pngitem.com/pimgs/m/602-6027464_instagram-logo-yellow-color-png-download-bitcoin-cash.png"
+        />
+        <img
+          className="plogo"
+          src="https://i.pinimg.com/originals/1b/76/01/1b7601e035a83c13c208b4ec905ee6d9.png"
+        />
+      </div>
     </div>
   );
 }

@@ -55,3 +55,40 @@
 .statsIcon {
   color: white;
 }
+
+.logos {
+  position: absolute;
+  margin-left: 304px;
+  margin-top: -150px;
+}
+
+.dlogo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-inline-end: 120px;
+}
+
+.blogo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-inline-end: 120px;
+  margin-left: 8px;
+}
+
+.ilogo {
+  height: 37px;
+  width: 39px;
+  border-radius: 50%;
+  margin-inline-end: 120px;
+  margin-left: 6px;
+}
+
+.plogo {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  margin-inline-end: 120px;
+  margin-left: 4px;
+}
