@@ -1,13 +1,8 @@
-.chart {
-  width: 55%;
-  position: relative;
-}
-
 .white {
   height: 18px;
-  width: 50px;
+  width: 70px;
   position: absolute;
   margin-top: 7px;
-  margin-left: 263px;
+  margin-left: 260px;
   z-index: 1;
 }

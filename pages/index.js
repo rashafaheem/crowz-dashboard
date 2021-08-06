@@ -8,39 +8,90 @@ import Cards from "../components/cards/cards.js";
 import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    color: theme.palette.text.secondary,
+  },
+}));
 
 export default function Home() {
+  const classes = useStyles();
+
   return (
     <div>
-      <Sidebar />
+      <div>
+        <Grid item xs={12} sm={12}>
+          <Paper className="">
+            <Sidebar />
+          </Paper>
+        </Grid>
+      </div>
       <div className="home">
-        <div className="dashboard">
-          <h1>Dashboard</h1>
-          <div className="setNot">
-            <Button className="setNotBut">
-              <NotificationsIcon className="notification" />
-            </Button>
-            <Button className="setNotBut">
-              <SettingsIcon className="settings" />
-            </Button>
+        <Grid item xs={12} sm={7}>
+          <div className="dashboard">
+            <h1>Dashboard</h1>
+            <div className="setNot">
+              <Button className="setNotBut">
+                <NotificationsIcon className="notification" />
+              </Button>
+              <Button className="setNotBut">
+                <SettingsIcon className="settings" />
+              </Button>
+            </div>
           </div>
           <br />
           <br />
           <Reach />
-          <UpgradeCard className="upCard" />
+        </Grid>
+        <div>
+          <Grid
+            container
+            direction="row"
+            justifyContent="flex-end"
+            alignItems="flex-start"
+            item
+            xs={6}
+            sm={12}
+          >
+            <UpgradeCard className="upCard" />
+          </Grid>
         </div>
         <br />
         <br />
-        <Activity />
-        <ActChart />
         <br />
-        <Performers />
+        <Grid item xs={12} sm={7}>
+          <Activity />
+          <ActChart />
+        </Grid>
+        <br />
+        <Grid
+          container
+          direction="row"
+          justifyContent="flex-end"
+          alignItems="center"
+          item
+          xs={3}
+          sm={7}
+        >
+          <Paper>
+            <Performers className="performerss" />
+          </Paper>
+        </Grid>
         <br />
         <br />
         <br />
         <br />
         <br />
         <Cards />
+
         <br />
         <br />
         <br />

@@ -1,3 +1,4 @@
+import SmallCards from "./smallCards.js";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
@@ -21,42 +22,10 @@ function Cards() {
         </Card>
       </div>
       <div className="smallCards">
-        <Card className="dribbleCard">
-          <CardContent className="dContent">
-            <h4 className="dribble">Dribble</h4>
-            <br />
-            <p className="dtag">@grantart</p>
-            <br />
-            <h2 className="dpercent">+2%</h2>
-          </CardContent>
-        </Card>
-        <Card className="dribbleCard">
-          <CardContent className="dContent">
-            <h4 className="dribble">Bahance</h4>
-            <br />
-            <p className="dtag">@grantart</p>
-            <br />
-            <h2 className="dpercent">-7%</h2>
-          </CardContent>
-        </Card>
-        <Card className="dribbleCard">
-          <CardContent className="dContent">
-            <h4 className="dribble">Instagram</h4>
-            <br />
-            <p className="dtag">@robertgrant</p>
-            <br />
-            <h2 className="dpercent">+4%</h2>
-          </CardContent>
-        </Card>
-        <Card className="dribbleCard">
-          <CardContent className="dContent">
-            <h4 className="dribble">Pinterest</h4>
-            <br />
-            <p className="dtag">@robertgrant</p>
-            <br />
-            <h2 className="dpercent">+2%</h2>
-          </CardContent>
-        </Card>
+        <SmallCards media="Dribble" userName="@grantart" growth="+2%" />
+        <SmallCards media="Bahance" userName="@grantart" growth="-7%" />
+        <SmallCards media="Instagram" userName="@robertgrant" growth="+4%" />
+        <SmallCards media="Pinterest" userName="@grantart" growth="+2%" />
         <a className="link">
           <Card className="dribbleCard">
             <CardContent className="stats">
