@@ -28,14 +28,19 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Grid item xs={12} sm={12}>
-          <Paper className="">
-            <Sidebar />
-          </Paper>
-        </Grid>
+        <Sidebar />
       </div>
       <div className="home">
-        <Grid item xs={12} sm={7}>
+        <Grid
+          className=""
+          container
+          // direction="row"
+          // justifyContent="flex-end"
+          // alignItems="flex-start"
+          item
+          xs={12}
+        >
+          {/* <Paper> */}
           <div className="dashboard">
             <h1>Dashboard</h1>
             <div className="setNot">
@@ -49,21 +54,14 @@ export default function Home() {
           </div>
           <br />
           <br />
-          <Reach />
-        </Grid>
-        <div>
-          <Grid
-            container
-            direction="row"
-            justifyContent="flex-end"
-            alignItems="flex-start"
-            item
-            xs={6}
-            sm={12}
-          >
+          <div className="reach">
+            <Reach />
+          </div>
+          <div className="upCard">
             <UpgradeCard className="upCard" />
-          </Grid>
-        </div>
+          </div>
+          {/* </Paper> */}
+        </Grid>
         <br />
         <br />
         <br />

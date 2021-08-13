@@ -69,12 +69,9 @@ function Sidebar() {
           <br />
           <br />
           <br />
-          <br />
           <div>
-            <a className="logoutButton">
-              <ExitToAppIcon className="logoutIcon" />
-              Logout
-            </a>
+            <ExitToAppIcon className="logoutIcon" />
+            <a className="logoutButton">Logout</a>
           </div>
         </Drawer>
       </div>

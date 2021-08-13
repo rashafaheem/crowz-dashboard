@@ -1,23 +1,23 @@
 .bigCard {
   height: 240px;
   width: 980px;
+  /* border-radius: 20%; */
 }
 
 .channels {
   padding: 10px;
   margin-top: 5%;
-  margin-left: -9px;
   font-family: "Georgia", Times, serif;
 }
 
 .cardContent {
-  margin-left: 35px;
+  margin-left: 15px;
 }
 
 .sub {
-  display: inline;
   padding: 10px;
   color: rgb(114, 113, 113);
+  margin-top: -27px;
 }
 
 .week {

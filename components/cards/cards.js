@@ -15,13 +15,17 @@ function Cards() {
             <h3 className="channels">Channels</h3>
             <p className="sub">
               Your channels <br /> statistics for
-              <span className="week">{" 1 week "}</span>
-              <br /> period.
+              <span className="week">
+                {" "}
+                1 week <br />
+              </span>
+              period.
             </p>
           </CardContent>
         </Card>
       </div>
       <div className="smallCards">
+<<<<<<< HEAD
         <SmallCards media="Dribble" userName="@grantart" growth="+2%" />
         <SmallCards media="Bahance" userName="@grantart" growth="-7%" />
         <SmallCards media="Instagram" userName="@robertgrant" growth="+4%" />
@@ -37,6 +41,53 @@ function Cards() {
             </CardContent>
           </Card>
         </a>
+=======
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Dribble</h4>
+            <br />
+            <p className="dtag">@grantart</p>
+            <br />
+            <h2 className="dpercent">+2%</h2>
+          </CardContent>
+        </Card>
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Bahance</h4>
+            <br />
+            <p className="dtag">@grantart</p>
+            <br />
+            <h2 className="dpercent">-7%</h2>
+          </CardContent>
+        </Card>
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Instagram</h4>
+            <br />
+            <p className="dtag">@robertgrant</p>
+            <br />
+            <h2 className="dpercent">+4%</h2>
+          </CardContent>
+        </Card>
+        <Card className="dribbleCard">
+          <CardContent className="dContent">
+            <h4 className="dribble">Pinterest</h4>
+            <br />
+            <p className="dtag">@robertgrant</p>
+            <br />
+            <h2 className="dpercent">+2%</h2>
+          </CardContent>
+        </Card>
+        <Card className="dribbleCard">
+          <CardContent className="stats">
+            <h3 className="h3stats">
+              Full <br />
+              Stats
+            </h3>
+            <PlayCircleFilledIcon className="statsIcon" />
+          </CardContent>
+        </Card>
+>>>>>>> parent of c4d3b06 (Cards Updated)
       </div>
       <div className="logos">
         <img
