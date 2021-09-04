@@ -5,6 +5,8 @@
 }
 
 .p {
-  padding-left: 11%;
+  font-size: 13px;
+  padding-right: 5px;
+  float: right;
   display: inline;
 }

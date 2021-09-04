@@ -9,16 +9,14 @@ import SettingsIcon from "@material-ui/icons/Settings";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
-    padding: theme.spacing(2),
-    color: theme.palette.text.secondary,
+  secondContainer: {
+    marginTop: "60px",
   },
 }));
 
@@ -31,17 +29,8 @@ export default function Home() {
         <Sidebar />
       </div>
       <div className="home">
-        <Grid
-          className=""
-          container
-          // direction="row"
-          // justifyContent="flex-end"
-          // alignItems="flex-start"
-          item
-          xs={12}
-        >
-          {/* <Paper> */}
-          <div className="dashboard">
+        <Grid container spacing={3}>
+          <Grid item xs={12} lg={6}>
             <h1>Dashboard</h1>
             <div className="setNot">
               <Button className="setNotBut">
@@ -51,37 +40,26 @@ export default function Home() {
                 <SettingsIcon className="settings" />
               </Button>
             </div>
-          </div>
-          <br />
-          <br />
-          <div className="reach">
-            <Reach />
-          </div>
-          <div className="upCard">
-            <UpgradeCard className="upCard" />
-          </div>
-          {/* </Paper> */}
-        </Grid>
-        <br />
-        <br />
-        <br />
-        <Grid item xs={12} sm={7}>
-          <Activity />
-          <ActChart />
-        </Grid>
-        <br />
-        <Grid
-          container
-          direction="row"
-          justifyContent="flex-end"
-          alignItems="center"
-          item
-          xs={3}
-          sm={7}
-        >
-          <Paper>
-            <Performers className="performerss" />
-          </Paper>
+            <div className="reach">
+              <Reach />
+            </div>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <div className="upCard">
+              <UpgradeCard />
+            </div>
+          </Grid>
+          <Grid container spacing={3} className={classes.secondContainer}>
+            <Grid item xs={12} lg={6}>
+              <Activity />
+              <ActChart />
+            </Grid>
+            <Grid item xs={12} lg={6}>
+              <div className="topPerformers">
+                <Performers />
+              </div>
+            </Grid>
+          </Grid>
         </Grid>
         <br />
         <br />
@@ -89,7 +67,6 @@ export default function Home() {
         <br />
         <br />
         <Cards />
-
         <br />
         <br />
         <br />

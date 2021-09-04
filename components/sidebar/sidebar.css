@@ -59,6 +59,11 @@
   cursor: pointer;
 }
 
+.logout {
+  position: absolute;
+  bottom: 60px;
+}
+
 .logoutIcon {
   margin-left: 75px;
   display: inline-block;

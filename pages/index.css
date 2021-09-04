@@ -1,7 +1,7 @@
 .home {
-  margin-left: 21.5%;
-  margin-right: 3%;
-  margin-top: 1%;
+  margin-left: 330px;
+  margin-right: 90px;
+  margin-top: 30px;
 }
 
 h1 {
@@ -11,8 +11,9 @@ h1 {
 }
 
 .setNot {
-  margin-left: 17%;
-  display: inline-block;
+  margin-left: 16%;
+  margin-top: 20px;
+  float: right;
 }
 
 .notification {
@@ -29,17 +30,17 @@ h1 {
 }
 
 .upCard {
-  margin-top: -63%;
-  margin-left: 30%;
-  /* display: flex; */
-  /* flex-direction: row; */
+  float: right;
+  vertical-align: middle;
 }
 
-.performerss {
-  margin-top: -18%;
-  margin-left: 61%;
-  /* display: flex; */
-  /* flex-direction: row; */
+.secondContainer {
+  margin-top: 70px;
+}
+
+.topPerformers {
+  float: right;
+  vertical-align: middle;
 }
 
 .gridTop {

@@ -1,9 +1,10 @@
 import PropsPer from "./propsPer.js";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import { Grid } from "@material-ui/core";
 
 function Performers(props) {
   return (
-    <div className="performers">
+    <div className="">
       <h2 className="h2">Top Performers</h2>
       <br />
       <br />

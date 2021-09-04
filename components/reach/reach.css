@@ -1,10 +1,25 @@
-.info {
+.views {
   line-height: 0.1;
-  width: 20%;
-  margin-inline-end: 13%;
+  width: 22%;
   display: inline-block;
   vertical-align: middle;
 }
+
+.followers {
+  line-height: 0.1;
+  width: 22%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 18%;
+}
+
+.reposts {
+  line-height: 0.1;
+  width: 22%;
+  float: right;
+  vertical-align: middle;
+}
+
 p {
   color: rgb(144, 144, 151);
   display: inline-block;
@@ -17,18 +32,18 @@ h2 {
 
 .arrow1 {
   color: rgb(5, 146, 156);
-  margin-left: 35%;
+  float: right;
   vertical-align: middle;
 }
 
 .arrow2 {
   color: rgb(156, 35, 5);
-  margin-left: 9%;
+  float: right;
   vertical-align: middle;
 }
 
 .arrow3 {
   color: rgb(5, 146, 156);
-  margin-left: 20%;
+  float: right;
   vertical-align: middle;
 }

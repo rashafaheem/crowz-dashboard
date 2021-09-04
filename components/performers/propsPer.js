@@ -1,6 +1,6 @@
 function PropsPer(props) {
   return (
-    <div className="top">
+    <div>
       <a className="link">
         <img className="dp" src={props.src}></img>
         <h4 className="name">{props.name}</h4>

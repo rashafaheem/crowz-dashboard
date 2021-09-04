@@ -31,8 +31,8 @@ function ActChart(props) {
               fontSize: 20,
             },
             legend: {
-              display: true,
-              position: "right",
+              // display: true,
+              // position: "right",
             },
           }}
         />

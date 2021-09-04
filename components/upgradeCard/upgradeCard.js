@@ -22,7 +22,10 @@ function UpgradeCard() {
   const classes = useStyles();
   return (
     <div className="upCard">
-      <Card style={{ backgroundColor: "rgb(233, 220, 220)" }} className="card">
+      <Card
+        style={{ backgroundColor: "rgb(233, 220, 220)", borderRadius: "9%" }}
+        className="card"
+      >
         <CardContent className="cardContent">
           <p className="upgrade">
             Upgrade
