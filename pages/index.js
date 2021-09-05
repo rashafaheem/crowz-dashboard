@@ -61,15 +61,7 @@ export default function Home() {
             </Grid>
           </Grid>
         </Grid>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <Cards />
-        <br />
-        <br />
-        <br />
       </div>
     </div>
   );

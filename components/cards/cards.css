@@ -1,17 +1,20 @@
+.thirdContainer {
+  margin-top: 90px;
+}
+
 .bigCard {
   height: 240px;
-  width: 980px;
-  /* border-radius: 20%; */
+  width: 100%;
+}
+
+.channelDiv {
+  margin-left: 15px;
+  display: inline;
 }
 
 .channels {
   padding: 10px;
-  margin-top: 5%;
   font-family: "Georgia", Times, serif;
-}
-
-.cardContent {
-  margin-left: 15px;
 }
 
 .sub {
@@ -25,23 +28,29 @@
   font-weight: bold;
 }
 
+.smallCards {
+  display: flex;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 160px;
+  float: right;
+  vertical-align: middle;
+}
+
+.smallCard {
+  padding-left: 4%;
+  display: inline;
+  float: left;
+}
+
 .dribbleCard {
   height: 150px;
   width: 140px;
-  position: relative;
-  bottom: 130px;
-  left: 250px;
-  float: left;
-  margin-right: 23px;
 }
 
 .dContent {
   text-align: center;
   line-height: 0px;
-}
-
-.dtag {
-  margin-top: 2%;
 }
 
 .stats {
@@ -58,37 +67,33 @@
 
 .logos {
   position: absolute;
-  margin-left: 304px;
-  margin-top: -150px;
+  margin-left: 240px;
+  margin-top: 45px;
 }
 
 .dlogo {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  margin-inline-end: 120px;
+  margin-inline-end: 135px;
 }
 
 .blogo {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  margin-inline-end: 120px;
-  margin-left: 8px;
+  margin-inline-end: 130px;
 }
 
 .ilogo {
   height: 37px;
   width: 39px;
   border-radius: 50%;
-  margin-inline-end: 120px;
-  margin-left: 6px;
+  margin-inline-end: 125px;
 }
 
 .plogo {
   height: 42px;
   width: 42px;
   border-radius: 50%;
-  margin-inline-end: 120px;
-  margin-left: 4px;
 }
