@@ -23,7 +23,7 @@ function UpgradeCard() {
   return (
     <div className="upCard">
       <Card
-        style={{ backgroundColor: "rgb(233, 220, 220)", borderRadius: "9%" }}
+        style={{ backgroundColor: "rgb(233, 220, 220)", borderRadius: "20px" }}
         className="card"
       >
         <CardContent className="cardContent">

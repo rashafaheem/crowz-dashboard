@@ -1,15 +1,15 @@
-.thirdContainer {
-  margin-top: 90px;
-}
-
 .bigCard {
-  height: 240px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  height: auto;
   width: 100%;
+  border-radius: 20px;
 }
 
-.channelDiv {
-  margin-left: 15px;
-  display: inline;
+.cardContentsDiv {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 
 .channels {
@@ -28,25 +28,15 @@
   font-weight: bold;
 }
 
-.smallCards {
-  display: flex;
-  /* position: absolute;
-  margin-top: -170px;
-  margin-left: 160px; */
-  float: right;
-  vertical-align: middle;
-  margin-right: 70px;
-}
-
 .smallCard {
-  padding-left: 4%;
-  display: inline;
-  float: left;
+  padding-top: 40px;
+  border-radius: 30px;
 }
 
 .dribbleCard {
   height: 150px;
   width: 140px;
+  border-radius: 30px;
 }
 
 .dContent {
@@ -66,35 +56,38 @@
   color: white;
 }
 
-.logos {
-  position: absolute;
-  margin-left: 240px;
-  margin-top: 45px;
-}
-
 .dlogo {
+  position: absolute;
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  margin-inline-end: 135px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .blogo {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  margin-inline-end: 130px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .ilogo {
   height: 37px;
   width: 39px;
   border-radius: 50%;
-  margin-inline-end: 125px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .plogo {
   height: 42px;
   width: 42px;
   border-radius: 50%;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
 }
